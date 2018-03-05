@@ -1,19 +1,112 @@
-.main-content {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
   width: 1200px;
-}
-
-li {
-  list-style: none;
-  display: inline-block;
-}
-
-a {
-  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
   display: block;
 }
 
-.main-nav a {
-  border: solid red 1px;
+ul {list-style-type: none;}
 
+nav {
+  /* margin-bottom: 44px; */
+  text-align: center;
+  margin-bottom: 103px;
+  padding-top: 77px;
+}
+.main {
+  margin: auto;
+  border: solid red;
+}
 
+.main-menu ul {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.main-menu li {
+  display: inline-block;
+  padding: 12px 22px;
+  text-align: center;
+}
+
+.main-menu li:hover {
+  outline: 1px solid rgb(236, 236, 236);
+}
+.main-menu li:hover a {
+  color: #cc9999;
+  text-decoration: underline;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', sans-serif;
+  color: #666666;
+  padding: 15px;
+}
+
+.main > div {
+  width: 420px;
+  display: inline-block;
+}
+
+.festival,
+.dream,
+.song {
+  margin-right: 60px;
+}
+
+img {
+  margin-bottom: 32px;
+}
+
+    /*category*/
+
+.path-item {
+  margin-bottom: 35px;
+  font-family: 'Ubuntu', serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #cc9999;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  color: #666666;
+  margin-bottom: 43px;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+  line-height: 24px;
+  margin-bottom: 130px;
+  color: #626262;
+}
+
+    /*BUTTON*/
+    
+.btn-load {
+  text-align: center;
+}
+
+.btn-load-more {
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  padding: 22px 34px;
+  font-size: 20px;
+  line-height: 24px;
+  border: solid 1px #666666;
+  opacity: 1;
+}
+.btn-load-more:hover {
+  border: 2px solid #666666;
+  opacity: .6;
 }
