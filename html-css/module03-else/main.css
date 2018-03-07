@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h3{
+  display: inline-block;
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: #424242;
+}
+.wrapper {
+  width: 960px;
+  padding-top: 30px;
+  margin: auto auto;
+  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+}
+nav {
+  margin-bottom: 20px;
+}
+ul.menu {
+  list-style-type: none;
+  margin: auto;
+  width: 50%;
+}
+.menu li {
+  display: inline-block;
+  padding: 12px 22px;
+}
+.menu a {
+  text-decoration: none;
+  color: #666;
+  text-transform: uppercase;
+}
+.menu li:hover {
+  box-shadow: 0 0 8px 2px rgba(200, 200, 200, 1);
+}
+.menu li:hover a {
+  color: rgb(96, 236, 225);
+}
+
+          /* task2 */
+
+.festival {
+  width: 470px;
+  margin: 0 auto;
+  box-shadow: 0 0 8px 2px rgba(200, 200, 200, 1);
+}
+
+img {
+  margin: 40px 20px 20px 25px;
+}
+
+.path-item {
+  margin: 10px 25px 35px;
+  font-family: 'Ubuntu', serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #b4ad9e;
+
+}
+h2 {
+  padding: 0 25px;
+  font-size: 30px;
+  color: #666666;
+  margin-bottom: 43px;
+}
+
+p:last-child {
+  padding: 0 25px 30px;
+  line-height: 24px;
+  margin-bottom: 50px;
+  color: #626262;
+}
+.task3 {
+  width: 960px;
+  margin: 50px auto;
+  box-shadow: 0 0 8px 2px rgba(200, 200, 200, 1);
+}
+.task3>.item {
+  display: inline-block;
+  margin: 0 4px;
+}
+.item {
+  width: 470px;
+  padding: 0px;
+}
+code {
+  font-family: 'Ubuntu' serif;
+  background-color: #f7f7f7;
+  font-size: 18px;
+  line-height: 44px;
+  padding: 4px 10px;
+  font-weight: 700;
+}
+
+.block {
+  counter-increment: count-block;
+}
+.block:after {
+  content: counter(count-block);
+  margin-left: 10px;
+}
