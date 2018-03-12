@@ -7,9 +7,10 @@
 .wrapper {
   width: 960px;
   font-size: 14px;
+  font-family: 'Playfair Display', sans-serif;
   line-height: 24px;
   padding-top: 77px;
-  margin: auto auto;
+  margin: auto;
 }
 
 ul {list-style-type: none;}
@@ -21,6 +22,7 @@ nav {
 
 .main-menu li {
   display: inline-block;
+  vertical-align: top;
   padding: 12px 14px;
   text-align: center;
 }
@@ -36,20 +38,16 @@ nav {
 nav a {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Playfair Display', sans-serif;
   color: #666666;
   padding: 15px;
   margin: 0 20px;
 }
-.main > div {
+
+.box {
   width: 420px;
   display: inline-block;
-}
-
-.festival,
-.dream,
-.song {
-  margin: 0 38px;
+  vertical-align: top;
+  margin: 0 28px;
 }
 
 img {
@@ -69,13 +67,11 @@ img {
 
 h2 {
   font-size: 30px;
-  font-family: 'Playfair Display', serif;
   color: #666666;
   margin-bottom: 43px;
 }
 
 p {
-  font-family: 'Playfair Display', serif;
   line-height: 24px;
   margin-bottom: 130px;
   color: #626262;
@@ -91,7 +87,7 @@ p {
 .btn-load-more {
   display: inline-block;
   text-decoration: none;
-  font-family: 'Playfair Display', serif;
+  color: #626262;
   padding: 22px 34px;
   font-size: 20px;
   line-height: 24px;
