@@ -8,24 +8,24 @@ h3{
   color: #fff;
   font-size: 1.5rem;
   background-color: #424242;
+  padding: 5px;
 }
 .wrapper {
   width: 960px;
   padding-top: 30px;
-  margin: auto auto;
+  margin: auto;
   font-size: 14px;
   font-family: 'Playfair Display', serif;
 }
 nav {
   margin-bottom: 20px;
 }
-ul.menu {
-  list-style-type: none;
-  margin: auto;
-  width: 50%;
+.menu {
+  text-align: center;
 }
 .menu li {
   display: inline-block;
+  list-style: none;
   padding: 12px 22px;
 }
 .menu a {
@@ -93,6 +93,7 @@ code {
   line-height: 44px;
   padding: 4px 10px;
   font-weight: 700;
+  margin: 5px;
 }
 
 .block {
@@ -101,4 +102,7 @@ code {
 .block:after {
   content: counter(count-block);
   margin-left: 10px;
+}
+.task4 {
+  padding-bottom: 50px;
 }
