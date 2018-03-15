@@ -1,0 +1,94 @@
+/* 
+.task1 {
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* position: fixed; */
+  /* z-index: -1; */
+  /* top:0; */
+  /* left:0;  */
+  /* min-width:100%; */
+  /* min-height:100%; */
+  /* background-image: url(../img/yosemite-park.jpg) ; */
+  /* background-size: 100%;
+  background-repeat: no-repeat;
+  background: linear-gradient(blue); 
+  opacity: rgba(0, 0, 0, 0.3); 
+} 
+*/
+* {
+  box-sizing: border-box;
+}
+
+.task2 {
+  height: 400px;
+  width: 400px;
+  background-color: #424242;
+  position: absolute;
+  left: 30px;
+  top: 140px;
+}
+
+.box {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+.blue {
+  background-color: #35A0EF;
+
+}
+.green {
+  background-color: #249385;
+  left: 150px;
+}
+.rose {
+  background-color: #E42C65;
+  left: 300px;
+}
+.red {
+  background-color: #EF4B44;
+  left: 0;
+  top: 150px;
+}
+.orange {
+  background-color: #FB5D3A;
+  left: 150px;
+  top: 150px;
+}
+.plum {
+  background-color: #991CA9;
+  left: 300px;
+  top: 150px;
+}
+.ligt-green {
+  background-color: #4EAB57;
+  bottom: 0;
+}
+.yellow {
+  background-color: #FCEE59;
+  left: 150px;
+  bottom: 0;
+}
+.ligt-blue {
+  background-color: #3E8DED;
+  bottom: 0;
+  left: 300px;
+}
+section {
+  display: block;
+}
+
+.back {
+  display: inline-block;
+  height: 450px;
+  width: 450px;
+  box-shadow: 0 0 8px 2px rgba(200, 200, 200, 1);
+}
+
+code {
+    font-family: Roboto Mono, monospace;
+    background-color: #f7f7f7;
+    padding: 1px 4px;
+    font-size: 18px;
+    font-weight: 700;
+}
