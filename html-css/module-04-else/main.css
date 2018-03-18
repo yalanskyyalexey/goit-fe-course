@@ -1,0 +1,49 @@
+body {
+  counter-reset: count-block;
+}
+.wrapper {
+  width: 800px;
+  margin: auto;
+  background-color: rgba(136, 119, 119, 0.555);
+}
+section {
+  counter-reset: count-box;
+}
+
+.task1 {
+  /* outline: 1px solid red; */
+}
+
+.main-menu {
+  margin: 0;
+  list-style: none;
+}
+.main-menu-item {
+  margin-right: 10px;
+  float: left;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.main-menu-item a {
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #424242;
+  background: #ccf;
+}
+.main-menu-item a:hover {
+  box-shadow: 0 0 10px rgb(119, 119, 119);
+  background: rgb(165, 165, 253);
+}
+
+h3 {
+  counter-increment: count-block;
+}
+
+h3:after {
+  content: counter(count-block);
+}

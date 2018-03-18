@@ -1,3 +1,10 @@
+
+.wrapper {
+    max-width: 840px;
+    min-width: 320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 /* 
 .task1 {
   /* width: 100%; */
@@ -18,14 +25,15 @@
 * {
   box-sizing: border-box;
 }
-
+body {
+  width: 960px;
+  margin: 0;
+}
 .task2 {
   height: 400px;
   width: 400px;
   background-color: #424242;
-  position: absolute;
-  left: 30px;
-  top: 140px;
+  position: relative;
 }
 
 .box {
@@ -34,47 +42,58 @@
   width: 100px;
 }
 .blue {
+  left: 0;
+  top: 0;
   background-color: #35A0EF;
-
 }
 .green {
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
   background-color: #249385;
-  left: 150px;
 }
 .rose {
+  right: 0;
+  top: 0;
   background-color: #E42C65;
-  left: 300px;
 }
 .red {
-  background-color: #EF4B44;
   left: 0;
-  top: 150px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #EF4B44;
 }
 .orange {
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
   background-color: #FB5D3A;
-  left: 150px;
-  top: 150px;
 }
 .plum {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
   background-color: #991CA9;
-  left: 300px;
-  top: 150px;
 }
 .ligt-green {
-  background-color: #4EAB57;
+  left: 0;
   bottom: 0;
+  background-color: #4EAB57;
 }
 .yellow {
-  background-color: #FCEE59;
-  left: 150px;
+  left: 50%;
   bottom: 0;
+  transform: translateX(-50%);
+  background-color: #FCEE59;
 }
 .ligt-blue {
-  background-color: #3E8DED;
+  right: 0;
   bottom: 0;
-  left: 300px;
+  background-color: #3E8DED;
 }
 section {
+  position: relative;
+  padding-top: 50px;
   display: block;
 }
 
@@ -82,6 +101,7 @@ section {
   display: inline-block;
   height: 450px;
   width: 450px;
+  padding: 24px;
   box-shadow: 0 0 8px 2px rgba(200, 200, 200, 1);
 }
 
@@ -91,4 +111,7 @@ code {
     padding: 1px 4px;
     font-size: 18px;
     font-weight: 700;
+}
+p {
+  display: block;
 }
