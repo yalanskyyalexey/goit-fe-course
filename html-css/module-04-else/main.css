@@ -1,17 +1,12 @@
 body {
-  counter-reset: count-block;
+  counter-reset: count-block headline;
 }
 .wrapper {
   width: 800px;
   margin: auto;
-  background-color: rgba(136, 119, 119, 0.555);
 }
 section {
   counter-reset: count-box;
-}
-
-.task1 {
-  /* outline: 1px solid red; */
 }
 
 .main-menu {
@@ -46,4 +41,54 @@ h3 {
 
 h3:after {
   content: counter(count-block);
+}
+    /* TASK2 */
+.task2-items {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+.task2-items {
+  color: #0E1116;
+}
+.task2-items:nth-child(3n) {
+  background-color:#88292F;
+}
+
+.task2-items:nth-child(3n+1):nth-child(odd) {
+  background-color: #5db7de;
+}
+.task2-items:nth-child(4) { 
+  background-color: #5db7de;
+}
+
+.task2-items:nth-child(3n+2):nth-child(even) {
+  background-color: #0d5d56;
+}
+.task2-items:nth-child(5) { 
+  background-color: #0d5d56;
+} 
+      /* TASK 3 */
+.task3-item {
+  list-style: none;
+}
+.task3-items::before {
+  content: "\2192";
+  padding-right: 5px;
+}
+/* TASK 4 */
+.task4-item, .task2-item {
+   list-style: none;
+}
+.task4-items::before{
+  display: inline-block;
+  counter-increment: headline;
+  content: counter(headline, upper-roman);
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  line-height: 35px;
+  background-color: #FFD700;
+  text-align: center;
 }
