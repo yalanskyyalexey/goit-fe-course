@@ -10,16 +10,18 @@ body {
   margin: 0 auto;
   box-sizing: border-box;
 }
+.main-nav { padding-left: 165px;}
 
 .main-header {
   padding-top: 72px;
   margin-bottom: 104px;
-
+  background-color: lightblue;
 }
 .main-menu {
   list-style: none;
-  padding-left: 165px; 
-  margin: auto;
+  /* padding-left: 165px;  */
+  margin: auto; 
+  background-color: teal;
 }
 
 .main-menu-item {
