@@ -36,9 +36,11 @@ body {
   text-transform: uppercase;
   color: #626262;
 }
-.main-menu-link:hover {
+.main-menu-link:hover,
+.main-menu-link:focus {
   color: #03a9f4;
 }
+
 /* MAIN-CONTENT */
 .content-item {
   list-style: none;
